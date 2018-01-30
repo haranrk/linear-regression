@@ -4,7 +4,7 @@ import random as rd
 import pandas as pd
 from functions import *
 #Paramters
-alpha=10**-6
+alpha=10**-10
 # number_of_features=4
 data_size = 1000
 grad_threshold=0.0001
@@ -18,4 +18,3 @@ for number_of_features in range(3,5):
 	plt.pause(3)
 	mean_squared_error=calc_error(X_test,y_test,w)
 	print("Error: %f"%(mean_squared_error))
-	input()
