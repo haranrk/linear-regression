@@ -1,6 +1,5 @@
 # Linear Regression
-Implemented Linear Regression with the following variants.
-
+Implemented Linear Regression with the following variants -
 1. Batch Gradient Descent
 2. Stochastic Gradient Descent
 3. RMSprop
